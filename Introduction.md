@@ -63,6 +63,13 @@ The interpreter executes it for you
 Python → python.exe
 If you uninstall Python, your Python code won’t run — because the interpreter is gone.
 
+While the interpreter can be used interactively, a programmer defines a series of commands in advance and saves their commands in a plain text known as **source code** or a **script**. For python, source code is stored in a file named with **.py** suffix
+
+On the most operating systems, the python interpreter can be started by typing *python* in the command line.
+
+Commands from a predefined script saved in a file(e.g., demo.py) are executed by invoking the interpreter with the filename as an argument (e.g., python demo.py) or using an additional -i flag in order to execute the script and then enter interactive mode (e.g., python -i demo.py)
+
+
 ### What python.exe actually is?
 python.exe is a normal program installed on your computer, just like:
 
